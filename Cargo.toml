@@ -1,0 +1,24 @@
+[package]
+name = "germline"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+authors = ["Adam Clark <savagetism@icloud.com>"]
+repository = "https://github.com/savageAZfck/germline"
+homepage = "https://github.com/savageAZfck/germline"
+license = "MIT"
+description = "Organism reproduction: a sovereign mind forks a child with a signed genesis block, bequested memories, and a Merkle genealogy — provable descent without identity confusion"
+keywords = ["lineage", "genesis", "fork", "sovereignty", "agents"]
+categories = ["cryptography"]
+readme = "README.md"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+hex = "0.4"
+ed25519-dalek = "2"
+rand = "0.8"
+
+[features]
+default = []
